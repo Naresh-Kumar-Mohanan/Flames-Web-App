@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: pink;
+}
+.head{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
