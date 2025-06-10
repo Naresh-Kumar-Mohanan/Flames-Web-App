@@ -7,11 +7,28 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <div class="head">
-        <h1>Flames App</h1>
-    </div>
     <div class="main">
+        <h2>Flames</h2>
+        <form action="Names">
+        <input type="text" placeholder="Boy Name">
+        <input type="text" placeholder="Girl Name">
+        </form>
+        <div class="Buttons">
+            <button>Reset</button>
+            <button>Flames</button>
+        </div>
     </div>
-    <div class="end"></div>
+    <div class="end">
+        <h4> ⓒ Instagram | h4x.happy</h4>
+    </div>
+    <div class="result-container" id="resultScreen">
+    <h2 id="flamesResult"></h2>
+    <button onclick="closeResult()">Close</button>
+    </div>
+
+
+
+    <script src="Flames.js"></script>
+    <script src="Reset.js"></script>
 </body>
 </html>
